@@ -1,0 +1,29 @@
+Library
+has:
+- books
+- record of people
+  |one
+  |
+  |many
+Person
+has:
+- name
+- age
+- membership number
+- balance 
+- books
+  |one
+  |
+  |many
+Book
+has:
+- ISBN
+- Title
+- Author
+- Genre
+- Format
+- Published date
+  |many
+  |
+  |one
+Library
